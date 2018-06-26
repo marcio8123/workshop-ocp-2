@@ -7,7 +7,7 @@
         echo 'dummy verification....'
     }
     stage('deploy') {
-        input 'Aprova ai PEPA-PIG'
+        input 'Você tem certeza disso?? Posso perguntar??'
         openshiftDeploy(deploymentConfig: 'workshop-ocp')
     }
     stage('promoting to QA') {
