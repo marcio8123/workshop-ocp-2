@@ -7,7 +7,7 @@
         echo 'dummy verification....'
     }
     stage('deploy') {
-        intput 'APROVA AI OTARIO'
+        intput 'Manual'
         openshiftDeploy(deploymentConfig: 'workshop-ocp')
     }
     stage('promoting to QA') {
