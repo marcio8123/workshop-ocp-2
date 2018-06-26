@@ -7,7 +7,7 @@
         echo 'dummy verification....'
     }
     stage('deploy') {
-        input 'Automatic Approval'
+        output 'Automatic Approval'
         openshiftDeploy(deploymentConfig: 'workshop-ocp')
     }
     stage('promoting to QA') {
