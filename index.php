@@ -1,4 +1,4 @@
 <?php
-echo "<h1>Openshift Workshop v222.0</h1> ";
+echo "<h1>PEGA NA BASE, THIAGUIN BABA EGGS</h1> ";
 echo $_SERVER['SERVER_ADDR'];
 ?>
