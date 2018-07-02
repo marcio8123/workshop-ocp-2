@@ -7,7 +7,7 @@
         echo 'dummy verification....'
     }
     stage('deploy') {
-        input 'Você tem certeza disso?? Posso perguntar??'
+        input 'Deseja realizar a atualização?'
         openshiftDeploy(deploymentConfig: 'workshop-ocp')
     }
     stage('promoting to QA') {
