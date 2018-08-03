@@ -1,3 +1,3 @@
 <?php
-echo "<h1>ATUALIZAÇÃO APP DATATUS V1</h1> ";
+echo "<h1>ATUALIZAÇÃO APP DATATUS 1.0 V1</h1> ";
 ?>
